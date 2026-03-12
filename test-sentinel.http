@@ -1,0 +1,12 @@
+### Enviar Log de Auditoria (Acesso Suspeito)
+POST http://localhost:8080/api/logs
+Content-Type: application/json
+
+{
+  "id": "550e8400-e29b-41d4-a716-446655440000",
+  "username": "nicolas_admin",
+  "action": "LOGIN_ATTEMPT",
+  "timestamp": "2026-03-12T23:50:00",
+  "ipAddress": "192.168.1.105",
+  "riskLevel": "HIGH"
+}
